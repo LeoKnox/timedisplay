@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Time Machine</title>
+    </head>
+    <body>
+        <h2>The current time and date:</h2>
+        @{
+            var LocalString = ViewBag.time;
+            var LocalTime = ViewBag.date;
+        }
+        <h1>@LocalString</h1>
+        <h1>@LocalTime</h1>
+    </body>
+</html>
